@@ -8,4 +8,4 @@ services:
     plan: free
     region: oregon
     branch: main # or "main" if your GitHub branch is called main
-    rootDir: .
+    
