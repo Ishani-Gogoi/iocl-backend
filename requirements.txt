@@ -5,3 +5,4 @@ scikit-learn
 python-multipart
 aiofiles
 firebase-admin
+sqlalchemy==2.0.29
