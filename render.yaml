@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: user-pattern-analyzer
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host=0.0.0.0 --port=10000
+    pythonVersion: 3.11
+    plan: free
+    region: oregon
+    branch: main # or "main" if your GitHub branch is called main
+    rootDir: .
